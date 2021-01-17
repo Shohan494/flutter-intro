@@ -6,12 +6,23 @@ void main() {
       appBar: AppBar(
         title: Text('Flutter App'),
         centerTitle: true,
+        backgroundColor: Colors.red[600],
       ),
       body: Center(
-          child: Text('Hello from Shohan')
+          child: Text(
+              'Hello from Shohan',
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2,
+              color: Colors.blueGrey[600],
+            ),
+          )
       ),
       floatingActionButton: FloatingActionButton(
+        onPressed: () {},
         child: Text('click'),
+        backgroundColor: Colors.red[600],
       ),
     )
   )); // ROOT WIDGET home:
