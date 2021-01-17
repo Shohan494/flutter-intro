@@ -16,6 +16,7 @@ void main() {
               fontWeight: FontWeight.bold,
               letterSpacing: 2,
               color: Colors.blueGrey[600],
+              fontFamily: 'Pacifico'
             ),
           )
       ),
